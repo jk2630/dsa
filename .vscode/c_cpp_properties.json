@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "macos-gcc",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/Users/d.purvi/cpp-headers"
+      ],
+      "compilerPath": "/opt/homebrew/bin/g++-15",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "gcc-x64",
+      "compilerArgs": [
+        ""
+      ]
+    }
+  ],
+  "version": 4
+}

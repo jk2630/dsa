@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build and run",
+        "type": "shell",
+        "command": "/opt/homebrew/bin/g++-15",
+        "args": [
+          "-std=c++17",
+          "main.cpp",
+          "-o",
+          "main.out"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": [],
+        "detail": "Compile using GCC with bits/stdc++.h support"
+      },
+      {
+        "label": "run",
+        "type": "shell",
+        "command": "./main.out",
+        "dependsOn": "build and run"
+      }
+    ]
+  }
+  
