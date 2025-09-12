@@ -1,15 +1,14 @@
 {
   "configurations": [
     {
-      "name": "macos-gcc",
+      "name": "macos-clang-arm64",
       "includePath": [
-        "${workspaceFolder}/**",
-        "/Users/d.purvi/cpp-headers"
+        "${workspaceFolder}/**"
       ],
-      "compilerPath": "/opt/homebrew/bin/g++-15",
+      "compilerPath": "/usr/bin/clang",
       "cStandard": "${default}",
       "cppStandard": "${default}",
-      "intelliSenseMode": "gcc-x64",
+      "intelliSenseMode": "macos-clang-arm64",
       "compilerArgs": [
         ""
       ]
